@@ -1,16 +1,37 @@
-# React + Vite
+# NeuroGrid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NeuroGrid is a browser-based cognitive training game focused on visual memory, attention, and pattern recognition.
 
-Currently, two official plugins are available:
+The player is shown a highlighted grid pattern for a short amount of time, then must reproduce the same pattern from memory. As the game progresses, the levels become more challenging and require stronger focus and accuracy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://cozy-peony-25194a.netlify.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Visual memory training gameplay
+- Difficulty selection: Easy, Medium, Hard
+- Dynamic grid sizes
+- Pattern preview phase
+- User input phase
+- Score system
+- Level progression
+- Game over state
+- High score saved with LocalStorage
+- Responsive layout for different screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- Vite
+- LocalStorage
+
+## How to Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HogaBoga1/NeuroGrid.git
